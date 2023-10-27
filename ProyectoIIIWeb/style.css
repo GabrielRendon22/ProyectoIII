@@ -55,3 +55,31 @@ cursor: pointer;}
   .navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
     color: #FFFFFF; /* Texto blanco */
   }
+  body {
+    margin: 0;
+    padding: 0;
+   background-color: #000000;
+  }
+
+  .image-link {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+.image-link img {
+
+    
+    border-radius: 75%;
+    cursor: pointer;
+    width: 200px;
+}
+
+.Silvestres{
+color: aliceblue;
+text-align: center;
+
+
+}
+
+
+
