@@ -1,5 +1,11 @@
 .paragraph-bg-1 {
-    background: url('https://img.freepik.com/foto-gratis/arreglo-hojas-palma-verde-3d_23-2149015443.jpg?w=740&t=st=1698184688~exp=1698185288~hmac=8060fcdc68dd79c61108ad754ec479b331042e6b4821468bc005c16b91084e68') no-repeat center center;
+    background-image: linear-gradient(
+      to right,
+      rgb(0 0 0 / 0.4),
+      rgb(0 0 0 / 0.3)
+    ),
+    url("https://img.freepik.com/foto-gratis/arreglo-hojas-palma-verde-3d_23-2149015443.jpg?w=740&t=st=1698184688~exp=1698185288~hmac=8060fcdc68dd79c61108ad754ec479b331042e6b4821468bc005c16b91084e68");
+    
     background-size: cover;
     color: #ffffff; /* Color de texto para que sea legible en el fondo */
     padding: 20px;
@@ -18,8 +24,11 @@
 cursor: pointer;
 }
   .paragraph-bg-2 {
-    background: url('https://img.freepik.com/foto-gratis/fondo-textura-hoja-verde_501050-120.jpg?w=740&t=st=1698184346~exp=1698184946~hmac=4e728868f6821dddce84bc3f842b93840c79c4bbc3b1defa1cfc7f150d0ee1f7') no-repeat center center;
-    background-size: cover;
+    background-image: linear-gradient(
+      to right,
+      rgb(0 0 0 / 0.5),
+      rgb(0 0 0 / 0.4)
+    ), url('https://img.freepik.com/foto-gratis/fondo-textura-hoja-verde_501050-120.jpg?w=740&t=st=1698184346~exp=1698184946~hmac=4e728868f6821dddce84bc3f842b93840c79c4bbc3b1defa1cfc7f150d0ee1f7');  background-size: cover;
     color: #ffffff; /* Color de texto para que sea legible en el fondo */
     padding: 20px;
     box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.4); /* Efecto de sombra */
@@ -50,11 +59,13 @@ cursor: pointer;}
 }
 
   .navbar-custom {
-    background-color: #4CAF50; /* Verde relacionado con la naturaleza */
+    background-color: #035707; /* Verde relacionado con la naturaleza */
   }
   .navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
     color: #FFFFFF; /* Texto blanco */
+    padding: 10px;
   }
+
   body {
     margin: 0;
     padding: 0;
@@ -68,10 +79,11 @@ cursor: pointer;}
 }
 .image-link img {
 
-    
+     
     border-radius: 75%;
     cursor: pointer;
     width: 200px;
+    height: 200px;
 }
 
 .Silvestres{
