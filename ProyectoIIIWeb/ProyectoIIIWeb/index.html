@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioWild</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet"  type="text/css" href="./style.css">
+</head>
+<body>    
+    
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="index.html">BioWild</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+           
+            <li class="nav-item">
+              <a class="nav-link" href="mamiferos.html">Animales Silvestres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Animales en peligro de extinción</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>            
+          </ul>
+        </div>
+      </nav>
+        </div>
+        <div class="container">
+            <h1 class="my-5" style="color: aliceblue;" >Bienvenido a la Página de Inicio</h1>
+          
+            <div class="row">
+              <div class="col-md-5">
+                <h2 style="color: aliceblue;">El Concepto del Amor</h2>
+                <p class="paragraph-bg-1">"El amor es un fenómeno multifacético que abarca diversas emociones, comportamientos y experiencias. Al examinar los aspectos biológicos, psicológicos y socioculturales del amor, podemos comprender mejor su complejidad y desarrollar estrategias efectivas para abordar cuestiones relacionadas con el amor."</p>
+                <button id="miBoton" class="boton-expansible">Aprender Más</button>
+              </div>
+              <div class="col-md-1"> </div>
+              <div class="col-md-5">
+                <h2 style="color: aliceblue;">Naturaleza</h2>
+                <p class="paragraph-bg-2">"La naturaleza juega un papel crucial en el amor humano. Ofrece una perspectiva única sobre el amor, su origen y su desarrollo. A través de una profunda exploración del mundo natural, podemos descubrir patrones y perspicacias que pueden mejorar nuestra comprensión del amor y su calidad en nuestras vidas."</p>
+              </div>
+            </div>
+          </div>
+  
+  
+  <script>
+    $(document).ready(function() {
+    $("#miBoton").hover(
+        function() {
+            // Al pasar el mouse por encima
+            $(this).css("transform", "scale(1.2)");
+            $(this).css("background-color", "#000000");
+            $(this).css("color", "#4CAF50");          
+            $(this).text("Haz clic Aquí!");
+        },
+        function() {
+            // Al quitar el mouse
+            $(this).css("transform", "scale(1)");
+            $(this).css("background-color", "#4CAF50");
+            $(this).css("color", "#000000");
+            $(this).text("Aprender Más");
+            
+
+        }
+    );
+});
+</script>
+</body>
+
+</html>
