@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Galería de Imágenes</title>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-custom">
+			<a class="navbar-brand" href="index.html">BioWild</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarNav"
+				aria-controls="navbarNav"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="mamiferos.html">Animales Silvestres</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="extincion.html">Animales en peligro de extinción</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<h1 class="Extincion">Animales en Peligro de Extinción</h1>
+		<h2 class="Extincion">
+			Conoce más de los diferentes animales que se encuentran en peligro de extinción
+		</h2>
+    
+		<div class="image-link Extincion">
+			<a href="ajolote.html">
+				<img
+					src="https://www.nationalgeographic.com.es/medio/2018/03/23/axolotl_e8b57e0b_940x1199.jpg"
+					alt="Imagen 1"
+				/>
+			</a>
+		</div>
+  
+		<div class="image-link Extincion">
+			<a href="mandril.html">
+				<img src="https://www.nationalgeographic.com.es/medio/2018/03/23/colores-verdaderos_addc39af.jpg" alt="Imagen 2" />
+			</a>
+		</div>
+    <div class="image-link Extincion">
+			<a href="panda.html">
+				<img src="https://www.nationalgeographic.com.es/medio/2018/03/23/exito_1ad5e36d.jpg" alt="Imagen 3" />
+			</a>
+		</div>
+    <div class="image-link Extincion">
+			<a href="monarca.html">
+				<img src="https://www.nationalgeographic.com.es/medio/2018/03/23/perdida-entre-la-multitud_86c63fc7_1016x648.jpg" alt="Imagen 4" />
+			</a>
+		</div>
+  
+  
+		<div class="image-link Extincion">
+			<a href="guacamayo.html">
+				<img
+					src="https://www.nationalgeographic.com.es/medio/2018/03/23/perdido-en-la-traduccion_fcf0f9d8.jpg"
+					alt="Imagen 5"
+				/>
+			</a>
+		</div>
+  
+		<div class="image-link  Extincion">
+			<a href="lince.html">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Lince_ib%C3%A9rico_%28Lynx_pardinus%29%2C_Almuradiel%2C_Ciudad_Real%2C_Espa%C3%B1a%2C_2021-12-19%2C_DD_06.jpg/1200px-Lince_ib%C3%A9rico_%28Lynx_pardinus%29%2C_Almuradiel%2C_Ciudad_Real%2C_Espa%C3%B1a%2C_2021-12-19%2C_DD_06.jpg" alt="Imagen 6" />
+			</a>
+		</div> 
+    <div class="image-link Extincion">
+			<a href="leopardo.html">
+				<img src="https://www.nationalgeographic.com.es/medio/2018/04/10/el-fantasma-de-las-montanas_5b21cdd1.jpg" alt="Imagen 7" />
+			</a>
+		</div>
+    <div class="image-link Extincion">
+			<a href="picozapato.html">
+        
+				<img src="https://www.nationalgeographic.com.es/medio/2018/04/10/una-perspectiva-diferente_b1c4085d.jpg" alt="Imagen 8" />
+			</a>
+		</div>
+  </div>
+		<script>
+		$(document).ready(function() {
+  $(".Extincion").hover(function() {
+    $(this).find("img").css("opacity", 0.5);
+    $(this).find(".texto").fadeIn();
+  }, function() {
+    $(this).find("img").css("opacity", 1);
+    $(this).find(".texto").fadeOut();
+  });
+});
+
+		</script>
+	</body>
+</html>
